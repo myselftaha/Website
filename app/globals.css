@@ -338,7 +338,7 @@ button {
 
 .showcase-right {
   width: 5.8%;
-  top: 53%;
+  top: 50%;
   right: 1.2%;
   z-index: 4;
 }
@@ -391,7 +391,7 @@ button {
 .showcase-blue {
   width: 20%;
   bottom: -12%;
-  right: 1%;
+  right: 10%;
   z-index: 4;
   border-radius: 10px;
   box-shadow: 0 24px 40px rgba(0, 0, 0, 0.35);
