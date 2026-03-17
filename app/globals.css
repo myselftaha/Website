@@ -223,6 +223,57 @@ main {
   background: rgba(255, 255, 255, 0.4);
 }
 
+.coming {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 24px;
+  text-align: center;
+}
+
+.coming-card {
+  max-width: 720px;
+  padding: 48px 42px;
+  border-radius: 18px;
+  background: rgba(8, 12, 35, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(12px);
+}
+
+.coming-eyebrow {
+  letter-spacing: 0.4em;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  color: rgba(248, 248, 251, 0.7);
+  margin-bottom: 20px;
+}
+
+.coming-title {
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  margin: 0 0 18px;
+}
+
+.coming-subtitle {
+  color: rgba(248, 248, 251, 0.7);
+  font-size: 1.05rem;
+  margin-bottom: 30px;
+}
+
+.coming-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.coming-note {
+  color: rgba(248, 248, 251, 0.6);
+  font-size: 0.95rem;
+}
+
 .hero-rating {
   display: flex;
   justify-content: center;
