@@ -96,6 +96,7 @@ export default function Home() {
                 alt=""
                 aria-hidden="true"
               />
+              <div className="showcase-site" aria-hidden="true" />
               <img
                 className="showcase-domain"
                 src="/pics/65cbb4960b332d68ab229ff0_domain-celestial.svg"
