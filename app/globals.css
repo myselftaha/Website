@@ -169,10 +169,13 @@ main {
 
 .hero-eyebrow {
   text-transform: uppercase;
-  letter-spacing: 0.32em;
+  letter-spacing: 0.1em;
   font-size: 0.8rem;
-  color: var(--text-dim);
+  color: rgb(255, 255, 255);
   margin-bottom: 32px;
+  font-size: 16px;
+  line-height: 21px;
+
 }
 
 .hero-title {
