@@ -23,8 +23,8 @@ body {
   margin: 0;
   font-family: "Poppins", "Segoe UI", sans-serif;
   background:
-    radial-gradient(circle at 50% -10%, #1b2a86 0%, #0a0f2e 45%, #050512 75%),
-    linear-gradient(180deg, #0b103b 0%, #060716 55%, #0b1a7a 100%);
+    radial-gradient(circle at 50% -20%, rgba(32, 50, 150, 0.45), rgba(5, 6, 12, 0) 55%),
+    linear-gradient(180deg, #050607 0%, #060914 55%, #07081a 100%);
   color: var(--text-main);
   min-height: 100vh;
 }
@@ -144,9 +144,10 @@ main {
 
 .hero {
   position: relative;
-  padding: 100px 0 120px;
+  padding: 100px 0 28px;
   text-align: center;
-  background: #050608;
+  background: transparent;
+  overflow: visible;
 }
 
 .hero-inner {
@@ -158,13 +159,7 @@ main {
 }
 
 .hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(circle at 50% 10%, rgba(26, 40, 120, 0.35), rgba(5, 6, 12, 0) 55%),
-    linear-gradient(180deg, #050607 0%, #06071a 55%, #0a123b 100%);
-  z-index: 0;
+  content: none;
 }
 
 .hero-eyebrow {
@@ -298,10 +293,8 @@ main {
 }
 
 .press {
-  padding: 80px 0 120px;
-  background:
-    radial-gradient(circle at 50% 0%, rgba(18, 34, 130, 0.9), rgba(6, 8, 20, 0.95) 58%),
-    linear-gradient(180deg, rgba(7, 10, 25, 0.9), rgba(5, 5, 18, 0.95));
+  padding: 24px 0 120px;
+  background: transparent;
 }
 
 .press-inner {
@@ -447,7 +440,7 @@ main {
 
 .showcase {
   position: relative;
-  padding: 40px 0 140px;
+  padding: 0 0 140px;
 }
 
 .showcase-inner {
@@ -462,8 +455,24 @@ main {
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 50% 85%, rgba(24, 45, 255, 0.35), rgba(5, 5, 18, 0) 60%);
+  background: radial-gradient(circle at 50% 68%, rgba(24, 45, 255, 0.24), rgba(5, 5, 18, 0) 55%);
   pointer-events: none;
+  z-index: 0;
+}
+
+.showcase::after {
+  content: "";
+  position: absolute;
+  inset: 58% 0 0 0;
+  background: linear-gradient(
+    180deg,
+    rgba(5, 6, 12, 0) 0%,
+    rgba(0, 5, 187, 0.4) 52%,
+    rgba(0, 5, 187, 0.7) 82%,
+    rgba(5, 7, 20, 0.95) 100%
+  );
+  pointer-events: none;
+  z-index: 0;
 }
 
 .showcase-card {
