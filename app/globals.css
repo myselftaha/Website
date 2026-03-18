@@ -192,7 +192,8 @@ main {
   background-image: linear-gradient(-50deg, rgba(58, 41, 209, 0) 22%, rgba(58, 41, 209, 0.6));
   background-clip: border-box;
   padding: 0.01em 0.2em 0.05em;
-  border-radius: 4px;
+  border-radius: 0;
+  border-left: 4px solid #2a27ff;
   display: inline-block;
   line-height: 1.05;
   box-decoration-break: clone;
