@@ -148,7 +148,7 @@ main {
 }
 
 .hero-inner {
-  max-width: 980px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 0 24px;
 }
@@ -165,7 +165,8 @@ main {
   font-size: 72px;
   line-height: 94px;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgb(255, 255, 255);
+  text-wrap: balance;
   margin-bottom: 24px;
 }
 
